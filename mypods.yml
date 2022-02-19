@@ -1,0 +1,13 @@
+kind: Pod
+metadata:
+  name: mypods
+spec:
+  containers:
+  - name: myc1
+    image: 
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+      - containerPort: <Port>
