@@ -12,10 +12,10 @@ spec:
   template:
     metadata:
       labels:
-        app: myapp
+        app: myjavaapp
     spec:
       containers:
-      - name: myjavaapp
+      - name: myc1
         image: maha4iac/mahaonlinestore:2
         ports:
         - containerPort: 8080
